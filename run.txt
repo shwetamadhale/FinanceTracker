@@ -1,0 +1,19 @@
+reference: https://www.youtube.com/watch?v=4NZx9OF07qY&t=2682s
+
+Run server
+    cd C:\Users\madha\OneDrive\Documents\personal-finance
+    cd server
+    npm run dev
+
+if server already running
+    netstat -ano | findstr :3001
+    -------replace PIP--------
+    taskkill /PID 1234 /F
+    npm run dev
+
+
+
+Run Client
+    cd C:\Users\madha\OneDrive\Documents\personal-finance\client
+    npm run dev
+
